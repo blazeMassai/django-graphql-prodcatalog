@@ -1,0 +1,20 @@
+
+
+mutation {
+  create_category:createCategory(name: "Clothes", description: "Nguo aina zote"){
+    category{
+      id,
+      name,
+      description
+    }
+  }
+}
+
+# mutation {
+# update_category: updateCategory(name: "Electronics", id: 5) {
+#   category {
+#   id,
+#   name
+#   }
+# }
+# }
